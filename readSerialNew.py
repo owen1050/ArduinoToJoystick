@@ -46,15 +46,9 @@ while 1:
                     yaws[yc] = yaw
                     yaw = round(np.average(yaws))
                     if(yc < len(yaws)-1):
-<<<<<<< HEAD
                          yc = yc +1;
                     else:
                          yc = 0;
-=======
-                    	yc = yc +1;
-                    else:
-                    	yc = 0;
->>>>>>> 87f58e82e5fba7cfd3dd6417479cbce28ace1fb7
 
                     p0 = 11797
                     p1 = -337 * math.pow(pitch,1)
@@ -69,15 +63,9 @@ while 1:
                     pitchs[rc] = pitch
                     pitch = round(np.average(pitchs))
                     if(pc < len(pitchs)-1):
-<<<<<<< HEAD
                          pc = pc +1;
                     else:
                          pc = 0;
-=======
-                    	pc = pc +1;
-                    else:
-                    	pc = 0;
->>>>>>> 87f58e82e5fba7cfd3dd6417479cbce28ace1fb7
                     r0 = -840
                     r1 = 236 *math.pow(roll, 1)
                     r2 = 2.38 * math.pow(roll, 2)
@@ -90,15 +78,9 @@ while 1:
                     rolls[rc] = roll
                     roll = round(np.average(rolls))
                     if(rc < len(rolls)-1):
-<<<<<<< HEAD
                          rc = rc +1;
                     else:
                          rc = 0;
-=======
-                    	rc = rc +1;
-                    else:
-                    	rc = 0;
->>>>>>> 87f58e82e5fba7cfd3dd6417479cbce28ace1fb7
                     
                     #j.data.wAxisXRot = int(v)
                     
